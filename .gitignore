@@ -72,3 +72,6 @@ tags
 
 # YCM code completer
 .ycm_*
+
+logs/
+.file_activity_report.json
