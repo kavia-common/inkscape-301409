@@ -1,74 +1,63 @@
-doxygen_warnings.log
-doxygen/
-gtest/
-build
-share/inkscape
-share/*/*.h
-src/3rdparty/cairo
 
-inkscape_devel_*.snap
-inkscape_devel_source.tar.bz2
+# Python ignorables
+logs/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-*.pyc
-*.old
-*.swp
-*~
-*.rej
-.vscode
-.nvim.lua
-*.kdev4
-.uuid
-.clangd/
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
 .cache
-compile_commands.json
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+venv/
+.env
+.env.*
 
-# Snap packaging specific rules
-/snap/.snapcraft/
-/parts/
-/stage/
-/prime/
+# Ignore all directories containing pyvenv.cfg
+**/pyvenv.cfg
+**/*/pyvenv.cfg
 
-/*.snap
-/*_source.tar.bz2
-
-# CMake stuff
-CMakeFiles/
-Makefile
-cmake_install.cmake
-CMakeCache.txt
-CPackConfig.cmake
-CPackSourceConfig.cmake
-cmake_uninstall.cmake
-
-# Debian packaging
-/debian
-/obj-x86_64-linux-gnu
-/packaging/debian/.cpack
-/packaging/debian/.debhelper
-/packaging/debian/*.log
-/packaging/debian/*.substvars
-/packaging/debian/debhelper-build-stamp
-/packaging/debian/files
-/packaging/debian/inkscape*/
-/packaging/debian/lib*/
-/packaging/debian/tmp/
-
-
-# Translations
-po/*.gmo
-
-# Generated Man pages
-man/*.1
-man/*.pod
-man/*.tmp
-
-# Generated C files
-src/helper/sp-marshal.*
-
-# Ctags
-tags
-.DS_Store
-.idea
-
-# YCM code completer
-.ycm_*
+# Node.js ignorables
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+.env
+.env.test
+.cache/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.file_activity_report.json
+*.db
+core.*
+.core
+*.log
+post_process_status.lock
