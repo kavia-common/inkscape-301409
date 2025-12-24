@@ -72,3 +72,5 @@ tags
 
 # YCM code completer
 .ycm_*
+
+logs/
